@@ -12,6 +12,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -28,10 +29,12 @@ body {
 html {
     overflow-y: scroll;
     scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
-html::-webkit-scrollbar {
-    display: none; 
+::-webkit-scrollbar { 
+    display: none;
 }
 
 /*================================== navigation ==================================*/
@@ -773,52 +776,16 @@ footer {
         left: -37vw;
     }
 }
-/* 
-@media (max-width: 1024px) {
-    #bg-upper img {
-        height: 140vh;
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #contact {
+        min-height: 63vw;
     }
 
-    .soot-sprites img {
-        top: 8vw;
-    }
-
-    .kodama img {
-        top: -18vw;
-    }
-
-    .white-overlay {
-        margin-top: -240vw;
-    }
-
-    footer {
-        height: 43vh;
-    }
 }
 
-@media (max-width: 600px) {
-    #bg-upper img {
-        height: 127vh;
+@media (min-width: 481px) and (max-width: 600px) {
+    #contact {
+        min-height: 63vw;
     }
-
-    .soot-sprites img {
-        top: 8vw;
-    }
-
-    .kodama img {
-        top: -18vw;
-    }
-
-    .white-overlay {
-        margin-top: -210vw;
-    }
-
-    .white-overlay2 {
-        height: 60vh;
-        margin-top: -190vw;
-    }
-
-    footer {
-        height: 35.4vh;
-    }
-} */
+}
