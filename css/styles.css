@@ -180,6 +180,7 @@ nav a:focus {
     width: 120%;
     height: 53.5vw;
     z-index: 2;
+    left: 2vw;
 }
 
 .background {
