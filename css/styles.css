@@ -29,10 +29,12 @@ body {
 html {
     overflow-y: scroll;
     scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
-html::-webkit-scrollbar {
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
 /*================================== navigation ==================================*/
@@ -863,22 +865,55 @@ footer {
     
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .background img {
-        height: 120vh;
+        height: 160vw;
     }
 
-    footer {
-        height: 43vh;
+    .cover {
+        margin-top: -35vw;
     }
+
+    table {
+        margin-top: 30vw;
+    }
+
+    .TRAILER {
+        margin-top: 1vw;
+    }
+
+    .trailer-title {
+        margin-top: -12vw;
+    }
+
+    #contact {
+        min-height: 63vw;
+    }
+
 }
 
-@media (max-width: 600px) {
+@media (min-width: 481px) and (max-width: 600px) {
     .background img {
-        height: 100vh;
+        height: 160vw;
     }
 
-    footer {
-        height: 35.4vh;
+    .cover {
+        margin-top: -32vw;
+    }
+
+    table {
+        margin-top: 30vw;
+    }
+
+    .TRAILER {
+        margin-top: 1vw;
+    }
+
+    .trailer-title {
+        margin-top: -12vw;
+    }
+
+    #contact {
+        min-height: 63vw;
     }
 }
