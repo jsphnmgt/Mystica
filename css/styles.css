@@ -601,7 +601,7 @@ footer {
 }
 
 /* ================================ Mobile View ================================ */
-@media (max-width: 768px) {
+@media screen and (max-width: 767px) {
     * {
         box-sizing: border-box; 
     }
