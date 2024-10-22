@@ -782,10 +782,47 @@ footer {
         min-height: 63vw;
     }
 
-}
+    #bg-upper img {
+        height: 150vh;
+    }
+
+    .white-overlay {
+        margin-top: -250vw;
+    }
+
+    .white-overlay2 {
+        height: 64vh;
+        margin-top: -230vw;
+    }
+}   
 
 @media (min-width: 481px) and (max-width: 600px) {
     #contact {
         min-height: 63vw;
+    }
+
+    #bg-upper img {
+        height: 150vh;
+    }
+
+    .white-overlay {
+        margin-top: -138vh;
+    }
+
+    .soot-sprites img {
+        top: 6vw;
+    }
+
+    .kodama img {
+        top: -18vw;
+    }
+
+    .white-overlay2 {
+        height: 70vh;
+        margin-top: -196vw;
+    }
+
+    .question {
+        margin-top: -93vw;
     }
 }
