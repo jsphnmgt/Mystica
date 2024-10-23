@@ -177,7 +177,7 @@ nav a:focus {
 .background img {
     position: relative;
     display: block;
-    width: 120%;
+    width: 130%;
     height: 53.5vw;
     z-index: 2;
 }
@@ -188,7 +188,7 @@ nav a:focus {
 }
 
 .background::after {
-    width: 120%;
+    width: 130%;
     content: "";
     position: absolute;
     top: 0;
