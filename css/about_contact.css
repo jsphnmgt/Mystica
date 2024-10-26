@@ -826,3 +826,31 @@ footer {
         margin-top: -93vw;
     }
 }
+
+/* ================================ MEDIA PRINT ================================ */
+@media print {
+    header, #bg-upper img, #text-logo, #middle-background img, .space, footer, .background img, .cover, .trailer-img img, .play-button, .TRAILER, .trailer-title, .invi, .white-overlay, .white-overlay2, .soot-sprites img, .kodama img, .about-space {
+        display: none;
+    }
+
+    body {
+        background-color: var(--white);
+        color: var(--black);
+    }
+
+    .about-us, .about-mystica {
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+
+    .about-us {
+        margin-top: 20vw;
+        margin-left: -3.6vw;
+        margin-bottom: 2vw;
+    }
+
+    .about-mystica {
+        width: 80vw;
+        margin-left: 8vw;
+    }
+}
