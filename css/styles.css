@@ -920,3 +920,51 @@ footer {
         min-height: 63vw;
     }
 }
+
+/* ================================ MEDIA PRINT ================================ */
+@media print {
+    header, #bg-upper img, #text-logo, #middle-background img, .space, footer, .background img, .cover, .trailer-img img, .play-button, .TRAILER, .trailer-title, .invi {
+        display: none;
+    }
+
+    body {
+        background-color: var(--white);
+        color: var(--black);
+    }
+
+    .all-movies {
+        margin-top: -90vw;
+    }
+
+    .all-movies img {
+        box-shadow: none;
+    }
+
+    .title, .description, table, .table-left, .table-right {
+        margin-top: 10vw;
+        color: var(--black);
+        font-family: sans-serif;
+        font-size: 12px;
+        margin-left: 8vw;
+    }
+
+    .table-left, .table-right {
+        border: 1px solid var(--black);
+    }
+
+    .title {
+        width: 50vw;
+        margin-top: 10vw;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .description {
+        width: 80vw;
+        margin-top: -5vw;
+    }
+
+    table {
+        margin-top: -14vw;
+    }
+}
